@@ -2,7 +2,7 @@
 #include <string.h>
 
 
-
+# The function checks if the string is a Palindrome
 int isPalindromeStr(char str[]){
     int len = strlen(str);
     for(int i=0; i< len; i++){
